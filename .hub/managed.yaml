@@ -1,0 +1,67 @@
+parameters:
+  - name: application.description
+    value: Spring boot microservice
+  - name: application.humanName
+    value: smoke-arkadi-spring-boot-gke-01
+  - name: application.ingress
+    value: >-
+      smoke-arkadi-spring-boot-gke-01.app.arkadi-gke.smoke-arkadi-gcp01.superhub.io
+  - name: application.name
+    value: smoke-arkadi-spring-boot-gke-01
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '2'
+  - name: author.email
+    value: arkadi@agilestacks.com
+  - name: author.id
+    value: 00uaj37anmSq5VGE30h7
+  - name: author.name
+    value: Arkadi Shishlov
+  - name: author.organization
+    value: ASI
+  - name: component.dex.okta.appId
+    value: 0oapxg5d71QHaaEUx0h7
+  - name: component.dex.okta.clientId
+    value: 0oapxg5d71QHaaEUx0h7
+  - name: component.dex.okta.issuer
+    value: 'https://dev-458481.oktapreview.com'
+  - name: component.docker.auth.basic.username
+    value: admin
+  - name: component.docker.auth.host
+    value: dev-ops-harbor.app.arkadi-gke.smoke-arkadi-gcp01.superhub.io
+  - name: component.docker.registry.image
+    value: >-
+      dev-ops-harbor.app.arkadi-gke.smoke-arkadi-gcp01.superhub.io/library/smoke-arkadi-spring-boot-gke-01
+  - name: component.docker.registry.kind
+    value: harbor
+  - name: component.docker.registry.url
+    value: dev-ops-harbor.app.arkadi-gke.smoke-arkadi-gcp01.superhub.io/library
+  - name: component.github.repository.name
+    value: smoke-arkadi-spring-boot-gke-01
+  - name: component.github.repository.organization
+    value: asibot
+outputs:
+  - name: application.description
+  - name: application.humanName
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.docker.auth.basic.username
+  - name: component.docker.auth.host
+  - name: component.docker.registry.image
+  - name: component.docker.registry.kind
+  - name: component.docker.registry.url
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
